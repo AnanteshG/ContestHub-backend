@@ -1,0 +1,90 @@
+[
+    {
+        "id": "a52d205189454a2292fe33e41158a79e",
+        "platform": "CodeChef",
+        "title": "Starters 151 (Rated til 5 stars)",
+        "url": "https://www.codechef.com/START151",
+        "start_time": "2024-09-11T20:00:00+05:30",
+        "duration": 7200
+    },
+    {
+        "id": "91653c14ba6e4171b7acb9fc38201f6c",
+        "platform": "CodeChef",
+        "title": "Starters 152",
+        "url": "https://www.codechef.com/START152",
+        "start_time": "2024-09-18T20:00:00+05:30",
+        "duration": 7200
+    },
+    {
+        "id": "56910f5397f849a3b4c8c7cbc7173cb9",
+        "platform": "Codeforces",
+        "title": "Kotlin Heroes: Episode 11",
+        "url": "https://codeforces.com/contests/2011",
+        "start_time": "2024-09-30T20:05:00+05:30",
+        "duration": 9000
+    },
+    {
+        "id": "f7efe40b6408433a99cc5644a81454f2",
+        "platform": "Codeforces",
+        "title": "Kotlin Heroes: Practice 11",
+        "url": "https://codeforces.com/contests/2012",
+        "start_time": "2024-09-23T19:05:00+05:30",
+        "duration": 604800
+    },
+    {
+        "id": "7740bcbd983640e3a9bcbb6e73380790",
+        "platform": "Codeforces",
+        "title": "Codeforces Round 972 (Div. 2)",
+        "url": "https://codeforces.com/contests/2005",
+        "start_time": "2024-09-14T20:05:00+05:30",
+        "duration": 7200
+    },
+    {
+        "id": "d89f9c032ba34c3fb1263aa74327ceb0",
+        "platform": "GeeksforGeeks",
+        "title": "GFG Weekly - 172 [Rated Contest]",
+        "url": "https://practice.geeksforgeeks.org/contest/gfg-weekly-172-rated-contest",
+        "start_time": "2024-09-15T19:00:00+05:30",
+        "duration": 5400
+    },
+    {
+        "id": "edadc88f42114319bb30503e99ebd4db",
+        "platform": "GeeksforGeeks",
+        "title": "Job-A-Thon 37 Hiring Challenge",
+        "url": "https://practice.geeksforgeeks.org/contest/job-a-thon-37-hiring-challenge",
+        "start_time": "2024-09-21T20:00:00+05:30",
+        "duration": 9000
+    },
+    {
+        "id": "094ef4ac56184478b6b8bca12f3b5dc5",
+        "platform": "GeeksforGeeks",
+        "title": "GFG Weekly - 173 [Rated Contest]",
+        "url": "https://practice.geeksforgeeks.org/contest/gfg-weekly-173-rated-contest",
+        "start_time": "2024-09-22T19:00:00+05:30",
+        "duration": 5400
+    },
+    {
+        "id": "40604f66eeac4ca7a243275934d12bb2",
+        "platform": "GeeksforGeeks",
+        "title": "GFG Weekly - 174 [Rated Contest]",
+        "url": "https://practice.geeksforgeeks.org/contest/gfg-weekly-174-rated-contest",
+        "start_time": "2024-09-29T19:00:00+05:30",
+        "duration": 5400
+    },
+    {
+        "id": "dbdfd1e7743b4a54a5952ccc2d534fec",
+        "platform": "LeetCode",
+        "title": "Weekly Contest 415",
+        "url": "https://leetcode.com/contest/weekly-contest-415",
+        "start_time": "2024-09-15T08:00:00+05:30",
+        "duration": 5400
+    },
+    {
+        "id": "12d8dfdd626e41309eb820fc3c137488",
+        "platform": "LeetCode",
+        "title": "Biweekly Contest 139",
+        "url": "https://leetcode.com/contest/biweekly-contest-139",
+        "start_time": "2024-09-14T20:00:00+05:30",
+        "duration": 5400
+    }
+]
