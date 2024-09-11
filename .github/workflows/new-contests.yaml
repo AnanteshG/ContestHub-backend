@@ -1,0 +1,25 @@
+name: new-contests
+run-name: Update New Contests
+
+on:
+  schedule:
+    - cron: "31 1 * * *"
+
+jobs:
+  update-contests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: setup-python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.10"
+      - name: new-contests
+        run: python main.py
+      - name: commit-changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add .
+          git commit -m "update contests"
+          git push origin main
