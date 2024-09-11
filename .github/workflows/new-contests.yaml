@@ -3,7 +3,7 @@ run-name: Update New Contests
 
 on:
   schedule:
-    - cron: "41 19 * * *"
+    - cron: "30 4 * * *"
 
 jobs:
   update-contests:

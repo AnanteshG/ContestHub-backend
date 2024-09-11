@@ -138,3 +138,38 @@ with (Path(__file__).parent / "contests").open("w") as f:
 
 with (Path(__file__).parent / "contests.json").open("w") as f:
     json.dump(contests, f, indent=4)
+    
+def format_date(date: datetime) -> str:
+    day = date.day
+    month = date.strftime("%b")
+    year = date.year
+    suffix = 'th'
+    if day % 10 == 1 and day != 11:
+        suffix = 'st'
+    elif day % 10 == 2 and day != 12:
+        suffix = 'nd'
+    elif day % 10 == 3 and day != 13:
+        suffix = 'rd'
+    return f"{day}{suffix} {month} {year}"
+
+readme_path = Path(__file__).parent / "README.md"
+current_datetime = datetime.now(tz=ZoneInfo("Asia/Kolkata"))
+formatted_date = format_date(current_datetime)
+date_time_str = f"{formatted_date} {current_datetime.strftime('%H:%M:%S %Z')}"
+
+with readme_path.open("r") as file:
+    lines = file.readlines()
+
+# Update or add the line with the last update information
+updated = False
+for i, line in enumerate(lines):
+    if line.startswith("Last updated:"):
+        lines[i] = f"Last updated: {date_time_str}\n"
+        updated = True
+        break
+
+if not updated:
+    lines.append(f"Last updated: {date_time_str}\n")
+
+with readme_path.open("w") as file:
+    file.writelines(lines)
