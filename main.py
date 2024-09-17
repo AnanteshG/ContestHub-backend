@@ -1,6 +1,8 @@
 import json
 import uuid
 
+from bs4 import BeautifulSoup
+
 from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
