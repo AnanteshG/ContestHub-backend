@@ -29,7 +29,7 @@ def fetch_codechef_contests() -> list[dict]:
                 duration   = end_time - start_time
             except:
                 continue
-            contests.append({                
+            contests.append({
                 "id": uuid.uuid4().hex,
                 "platform": "CodeChef",
                 "title": title,
@@ -51,10 +51,10 @@ def fetch_codeforces_contests() -> list[dict]:
             url   = f"https://codeforces.com/contests/{data['id']}"
             start_time = datetime.fromtimestamp(float(data["startTimeSeconds"]), tz=ZoneInfo("Asia/Kolkata"))
             end_time   = start_time + timedelta(seconds=float(data["durationSeconds"]))
-            if end_time <= datetime.now(tz=ZoneInfo("Asia/Kolkata")): 
+            if end_time <= datetime.now(tz=ZoneInfo("Asia/Kolkata")):
                 continue  # include ongoing and upcoming contests only
             duration   = end_time - start_time
-            contests.append({                
+            contests.append({
                 "id": uuid.uuid4().hex,
                 "platform": "Codeforces",
                 "title": title,
@@ -81,7 +81,7 @@ def fetch_geeksforgeeks_contests() -> list[dict]:
             start_time = datetime.fromisoformat(data["start_time"]).astimezone(ZoneInfo("Asia/Kolkata"))
             end_time   = datetime.fromisoformat(data["end_time"]).astimezone(ZoneInfo("Asia/Kolkata"))
             duration   = end_time - start_time
-            contests.append({                
+            contests.append({
                 "id": uuid.uuid4().hex,
                 "platform": "GeeksforGeeks",
                 "title": title,
@@ -113,10 +113,10 @@ def fetch_leetcode_contests() -> list[dict]:
             url   = f"https://leetcode.com/contest/{data['titleSlug']}"
             start_time = datetime.fromtimestamp(int(data["startTime"])).astimezone(ZoneInfo("Asia/Kolkata"))
             end_time = start_time + timedelta(seconds=int(data["duration"]))
-            if end_time <= datetime.now(tz=ZoneInfo("Asia/Kolkata")): 
+            if end_time <= datetime.now(tz=ZoneInfo("Asia/Kolkata")):
                 continue
             duration = end_time - start_time
-            contests.append({                
+            contests.append({
                 "id": uuid.uuid4().hex,
                 "platform": "LeetCode",
                 "title": title,
@@ -126,11 +126,60 @@ def fetch_leetcode_contests() -> list[dict]:
             })
     return contests
 
-contests = ( 
+
+def fetchFromHackerEarth():
+    contests = []
+
+    url = "https://www.hackerearth.com/challenges/competitive"
+    challenges_response = requests.get(url)
+
+    if challenges_response.status_code == 200:
+        challenges_soup = BeautifulSoup(challenges_response.text, "html.parser")
+        challenges = challenges_soup.select('div.upcoming > div.challenge-card-modern')
+
+        for challenge in challenges:
+            try:
+                title_span = challenge.find('span', class_='challenge-list-title')
+
+                title = title_span.text
+                title = ' '.join(title.split())  # remove white-spaces from the title
+
+                url_tag = challenge.find('a', class_='challenge-card-wrapper')
+                contest_url = url_tag['href']
+
+                event_slug = contest_url.strip('/').split('/')[-1]  # used to get url for contest details
+                contest_url = f"https://www.hackerearth.com{contest_url}"
+
+                # end time is not available in this page, so make another request to the contest detail page
+                contest_details_url = f'https://www.hackerearth.com/challengesapp/api/events/{event_slug}/?only_meta=false'
+                contest_details_response = requests.get(contest_details_url)
+                contest_details = contest_details_response.json()
+
+                start_date = datetime.fromisoformat(contest_details.get('start_date'))
+                end_date = datetime.fromisoformat(contest_details.get('end_date'))
+                duration = end_date - start_date
+
+                contests.append({
+                    "id": uuid.uuid4().hex,
+                    "platform": "HackerEarth",
+                    "title": title,
+                    "url": contest_url,
+                    "start_time": start_date.isoformat(),
+                    "duration": duration.seconds + duration.days * SECONDS_PER_DAY,
+                })
+
+            except Exception as e:
+                continue
+
+        return contests
+
+
+contests = (
     fetch_codechef_contests() +
     fetch_codeforces_contests() +
     fetch_geeksforgeeks_contests() +
-    fetch_leetcode_contests()
+    fetch_leetcode_contests() +
+    fetchFromHackerEarth()
 )
 
 with (Path(__file__).parent / "contests").open("w") as f:
@@ -138,7 +187,7 @@ with (Path(__file__).parent / "contests").open("w") as f:
 
 with (Path(__file__).parent / "contests.json").open("w") as f:
     json.dump(contests, f, indent=4)
-    
+
 def format_date(date: datetime) -> str:
     day = date.day
     month = date.strftime("%b")
