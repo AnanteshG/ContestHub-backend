@@ -133,34 +133,48 @@ def fetchFromHackerEarth():
     contests = []
 
     url = "https://www.hackerearth.com/challenges/competitive"
-    challenges_response = requests.get(url)
 
-    if challenges_response.status_code == 200:
-        challenges_soup = BeautifulSoup(challenges_response.text, "html.parser")
-        challenges = challenges_soup.select('div.upcoming > div.challenge-card-modern')
+    try:
+        challenges_response = requests.get(url, timeout=10)  # Add a timeout of 10 seconds
+        challenges_response.raise_for_status()  # Raise an error if the request failed
+    except requests.exceptions.RequestException as e:
+        print(f"Error fetching data from HackerEarth: {e}")
+        return contests  
 
-        for challenge in challenges:
+    # If request is successful, proceed with parsing
+    challenges_soup = BeautifulSoup(challenges_response.text, "html.parser")
+    challenges = challenges_soup.select('div.upcoming > div.challenge-card-modern')
+
+    for challenge in challenges:
+        try:
+            title_span = challenge.find('span', class_='challenge-list-title')
+            if not title_span:
+                continue 
+            
+            title = ' '.join(title_span.text.split())  # Clean the title
+
+            url_tag = challenge.find('a', class_='challenge-card-wrapper')
+            if not url_tag or 'href' not in url_tag.attrs:
+                continue  
+
+            contest_url = url_tag['href']
+            event_slug = contest_url.strip('/').split('/')[-1]  
+            contest_url = f"https://www.hackerearth.com{contest_url}"
+
+            # Get contest details for start and end times
+            contest_details_url = f'https://www.hackerearth.com/challengesapp/api/events/{event_slug}/?only_meta=false'
+
             try:
-                title_span = challenge.find('span', class_='challenge-list-title')
-
-                title = title_span.text
-                title = ' '.join(title.split())  # remove white-spaces from the title
-
-                url_tag = challenge.find('a', class_='challenge-card-wrapper')
-                contest_url = url_tag['href']
-
-                event_slug = contest_url.strip('/').split('/')[-1]  # used to get url for contest details
-                contest_url = f"https://www.hackerearth.com{contest_url}"
-
-                # end time is not available in this page, so make another request to the contest detail page
-                contest_details_url = f'https://www.hackerearth.com/challengesapp/api/events/{event_slug}/?only_meta=false'
-                contest_details_response = requests.get(contest_details_url)
+                contest_details_response = requests.get(contest_details_url, timeout=10)
+                contest_details_response.raise_for_status() 
                 contest_details = contest_details_response.json()
 
-                start_date = datetime.fromisoformat(contest_details.get('start_date'))
-                end_date = datetime.fromisoformat(contest_details.get('end_date'))
+                # Parse start and end date
+                start_date = datetime.fromisoformat(contest_details.get('start_date')[:-1])  
+                end_date = datetime.fromisoformat(contest_details.get('end_date')[:-1])  
                 duration = end_date - start_date
 
+                # Add contest to list
                 contests.append({
                     "id": uuid.uuid4().hex,
                     "platform": "HackerEarth",
@@ -170,10 +184,15 @@ def fetchFromHackerEarth():
                     "duration": duration.seconds + duration.days * SECONDS_PER_DAY,
                 })
 
-            except Exception as e:
+            except requests.exceptions.RequestException as e:
+                print(f"Error fetching contest details for {title}: {e}")
                 continue
 
-        return contests
+        except Exception as e:
+            print(f"Error processing challenge: {e}")
+            continue
+
+    return contests
 
 
 contests = (
