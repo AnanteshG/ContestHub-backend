@@ -11,6 +11,7 @@ import requests
 
 SECONDS_PER_DAY = 24 * 60 * 60
 
+
 def fetch_codechef_contests() -> list[dict]:
     URL = "https://www.codechef.com/api/list/contests/all"
     payload = {
@@ -93,6 +94,7 @@ def fetch_geeksforgeeks_contests() -> list[dict]:
             })
     return contests
 
+
 def fetch_leetcode_contests() -> list[dict]:
     URL  = "https://leetcode.com/graphql"
     body = """
@@ -106,7 +108,7 @@ def fetch_leetcode_contests() -> list[dict]:
     }
     """
     contests = []
-    response = requests.get(URL, json={"query" : body})
+    response = requests.get(URL, json={"query": body})
     if response.ok:
         response = response.json()
         contests_data = response["data"]["allContests"]
@@ -129,7 +131,7 @@ def fetch_leetcode_contests() -> list[dict]:
     return contests
 
 
-def fetchFromHackerEarth():
+def fetch_hackerearth_contests():
     contests = []
 
     url = "https://www.hackerearth.com/challenges/competitive"
@@ -139,7 +141,7 @@ def fetchFromHackerEarth():
         challenges_response.raise_for_status()  # Raise an error if the request failed
     except requests.exceptions.RequestException as e:
         print(f"Error fetching data from HackerEarth: {e}")
-        return contests  
+        return contests
 
     # If request is successful, proceed with parsing
     challenges_soup = BeautifulSoup(challenges_response.text, "html.parser")
@@ -149,16 +151,16 @@ def fetchFromHackerEarth():
         try:
             title_span = challenge.find('span', class_='challenge-list-title')
             if not title_span:
-                continue 
-            
+                continue
+
             title = ' '.join(title_span.text.split())  # Clean the title
 
             url_tag = challenge.find('a', class_='challenge-card-wrapper')
             if not url_tag or 'href' not in url_tag.attrs:
-                continue  
+                continue
 
             contest_url = url_tag['href']
-            event_slug = contest_url.strip('/').split('/')[-1]  
+            event_slug = contest_url.strip('/').split('/')[-1]
             contest_url = f"https://www.hackerearth.com{contest_url}"
 
             # Get contest details for start and end times
@@ -166,12 +168,12 @@ def fetchFromHackerEarth():
 
             try:
                 contest_details_response = requests.get(contest_details_url, timeout=10)
-                contest_details_response.raise_for_status() 
+                contest_details_response.raise_for_status()
                 contest_details = contest_details_response.json()
 
                 # Parse start and end date
-                start_date = datetime.fromisoformat(contest_details.get('start_date')[:-1])  
-                end_date = datetime.fromisoformat(contest_details.get('end_date')[:-1])  
+                start_date = datetime.fromisoformat(contest_details.get('start_date')[:-1])
+                end_date = datetime.fromisoformat(contest_details.get('end_date')[:-1])
                 duration = end_date - start_date
 
                 # Add contest to list
@@ -195,12 +197,55 @@ def fetchFromHackerEarth():
     return contests
 
 
+def fetch_atcoder_contests() -> list[dict]:
+    contests = []
+
+    url = "https://atcoder.jp/contests/"
+
+    try:
+        response = requests.get(url, timeout=10)  # Add a timeout of 10 seconds
+        response.raise_for_status()  # Raise an error if the request failed
+    except requests.exceptions.RequestException as e:
+        print(f"Error fetching data from HackerEarth: {e}")
+        return contests
+
+    soup = BeautifulSoup(response.text, "html.parser")
+    contest_rows = soup.select('#contest-table-upcoming tbody tr')
+
+    for row in contest_rows:
+        try:
+            start_time = row.select_one('td a time').text.strip()  # example: 2024-09-21 21:00:00+0900
+            start_time = datetime.strptime(start_time, '%Y-%m-%d %H:%M:%S%z')
+
+            contest_info = row.select_one('td:nth-of-type(2) a')
+            title = contest_info.text.strip()
+            contest_url = f'https://atcoder.jp{contest_info["href"]}'
+
+            duration = row.select_one('td:nth-of-type(3)').text.strip().split(':')  # example: 120:00
+            duration = int(duration[0]) * 60 + int(duration[1])  # convert to minutes
+
+            contests.append({
+                "id": uuid.uuid4().hex,
+                "platform": "AtCoder",
+                "title": title,
+                "url": contest_url,
+                "start_time": start_time.isoformat(),
+                "duration": duration*60,
+            })
+
+        except Exception as e:
+            continue
+
+    return contests
+
+
 contests = (
     fetch_codechef_contests() +
     fetch_codeforces_contests() +
     fetch_geeksforgeeks_contests() +
     fetch_leetcode_contests() +
-    fetchFromHackerEarth()
+    fetch_hackerearth_contests() +
+    fetch_atcoder_contests()
 )
 
 with (Path(__file__).parent / "contests").open("w") as f:
@@ -208,6 +253,7 @@ with (Path(__file__).parent / "contests").open("w") as f:
 
 with (Path(__file__).parent / "contests.json").open("w") as f:
     json.dump(contests, f, indent=4)
+
 
 def format_date(date: datetime) -> str:
     day = date.day
@@ -221,6 +267,7 @@ def format_date(date: datetime) -> str:
     elif day % 10 == 3 and day != 13:
         suffix = 'rd'
     return f"{day}{suffix} {month} {year}"
+
 
 readme_path = Path(__file__).parent / "README.md"
 current_datetime = datetime.now(tz=ZoneInfo("Asia/Kolkata"))
