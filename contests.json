@@ -1,6 +1,6 @@
 [
     {
-        "id": "02b5797e1fde45688482933956eef2b1",
+        "id": "1b3b40036fc747038f92859ce563bdb3",
         "platform": "CodeChef",
         "title": "Starters 154",
         "url": "https://www.codechef.com/START154",
@@ -8,7 +8,7 @@
         "duration": 7200
     },
     {
-        "id": "facbdd1f978e4efaa5c9ef0941779820",
+        "id": "4f77642cb86d48f8846af5d08c0aa120",
         "platform": "CodeChef",
         "title": "Starters 155",
         "url": "https://www.codechef.com/START155",
@@ -16,7 +16,7 @@
         "duration": 7200
     },
     {
-        "id": "fd2c4e96ea674edc889978c2525ad4bd",
+        "id": "a32c38ce659a40978780eb4de3c36f16",
         "platform": "Codeforces",
         "title": "Kotlin Heroes: Episode 11",
         "url": "https://codeforces.com/contests/2011",
@@ -24,7 +24,7 @@
         "duration": 9000
     },
     {
-        "id": "20bdefb54bc042568cac0bba017ef0d6",
+        "id": "4caec7a2f7bc4197882654648b743f72",
         "platform": "Codeforces",
         "title": "Codeforces Round 976 (Div. 2)",
         "url": "https://codeforces.com/contests/2020",
@@ -32,23 +32,7 @@
         "duration": 7200
     },
     {
-        "id": "4404468125714d33afa57b13008485be",
-        "platform": "Codeforces",
-        "title": "Codeforces Round 975 (Div. 1)",
-        "url": "https://codeforces.com/contests/2018",
-        "start_time": "2024-09-27T19:05:00+05:30",
-        "duration": 9000
-    },
-    {
-        "id": "1c6c96efb7aa45ee92a2dcf645accc20",
-        "platform": "Codeforces",
-        "title": "Codeforces Round 975 (Div. 2)",
-        "url": "https://codeforces.com/contests/2019",
-        "start_time": "2024-09-27T19:05:00+05:30",
-        "duration": 9000
-    },
-    {
-        "id": "b0c23c28e1424a008217dbdb757ab898",
+        "id": "90dd896952cf42709a786714ab643661",
         "platform": "Codeforces",
         "title": "Kotlin Heroes: Practice 11",
         "url": "https://codeforces.com/contests/2012",
@@ -56,7 +40,7 @@
         "duration": 1123200
     },
     {
-        "id": "af7d21257c4c4f9fafd06b395adda9bc",
+        "id": "00ac2a334b364451a985e3bedb309284",
         "platform": "GeeksforGeeks",
         "title": "GfG Weekly - 174 [Rated Contest]",
         "url": "https://practice.geeksforgeeks.org/contest/gfg-weekly-174-rated-contest",
@@ -64,7 +48,7 @@
         "duration": 5400
     },
     {
-        "id": "c9410bd5695d46d28fc3bbf386f1fc45",
+        "id": "6ab541576a014bcf8ddf96587ccaaf5b",
         "platform": "GeeksforGeeks",
         "title": "Job-A-Thon 38 Hiring Challenge",
         "url": "https://practice.geeksforgeeks.org/contest/job-a-thon-38-hiring-challenge",
@@ -72,7 +56,7 @@
         "duration": 9000
     },
     {
-        "id": "68be14eab4434ddfa26f728b08020a97",
+        "id": "d781039011264b0091276de2b4e2725c",
         "platform": "LeetCode",
         "title": "Weekly Contest 417",
         "url": "https://leetcode.com/contest/weekly-contest-417",
@@ -80,7 +64,7 @@
         "duration": 5400
     },
     {
-        "id": "bf11288f0fe74ba2856f42f8cad8b2d6",
+        "id": "73a147a1a4ac4f02b6a9c98f9fb1e42f",
         "platform": "LeetCode",
         "title": "Biweekly Contest 140",
         "url": "https://leetcode.com/contest/biweekly-contest-140",
@@ -88,7 +72,7 @@
         "duration": 5400
     },
     {
-        "id": "078e656bfa3044388cf0088b4bde2985",
+        "id": "acc3fa3abaf246bbbc9d275d47546edf",
         "platform": "AtCoder",
         "title": "AtCoder Beginner Contest 373",
         "url": "https://atcoder.jp/contests/abc373",
@@ -96,7 +80,7 @@
         "duration": 6000
     },
     {
-        "id": "7d4984d53fb341f19fe9ec03f8c2dd80",
+        "id": "170e03303a3b4df4a6e4ecae52ba6cda",
         "platform": "AtCoder",
         "title": "AtCoder Grand Contest 068",
         "url": "https://atcoder.jp/contests/agc068",
@@ -104,7 +88,7 @@
         "duration": 10800
     },
     {
-        "id": "1729064409cc4d52847991e22208b92a",
+        "id": "a079a25265e04291aa2bc33f2108b079",
         "platform": "AtCoder",
         "title": "Toyota Programming Contest 2024#10\uff08AtCoder Heuristic Contest 038\uff09",
         "url": "https://atcoder.jp/contests/ahc038",
@@ -112,7 +96,7 @@
         "duration": 864000
     },
     {
-        "id": "8fb8a14b4b65490d8cfd806abe13cf4b",
+        "id": "f07632114ad646f3bd6a6f3c671b3772",
         "platform": "AtCoder",
         "title": "KEYENCE Programming Contest 2024\uff08AtCoder Beginner Contest 374\uff09",
         "url": "https://atcoder.jp/contests/abc374",
@@ -120,7 +104,7 @@
         "duration": 6000
     },
     {
-        "id": "1aa348d59a79452db7fd27e75652360a",
+        "id": "7d7f4eba9a134ff4808898b5641d99fc",
         "platform": "AtCoder",
         "title": "Panasonic Programming Contest 2024\uff08AtCoder Beginner Contest 375\uff09",
         "url": "https://atcoder.jp/contests/abc375",
@@ -128,7 +112,7 @@
         "duration": 6000
     },
     {
-        "id": "b8b174923eb84763b613eed89ad56c24",
+        "id": "94983bb104b542b0a4b7efbf91132006",
         "platform": "AtCoder",
         "title": "AtCoder Beginner Contest 376",
         "url": "https://atcoder.jp/contests/abc376",
@@ -136,7 +120,7 @@
         "duration": 6000
     },
     {
-        "id": "a86a42a3757142da90897ce9a2c19103",
+        "id": "72730cbc60b5415cbf65c5113061f4a7",
         "platform": "AtCoder",
         "title": "TOYOTA SYSTEMS Programming Contest 2024\uff08AtCoder Beginner Contest 377)",
         "url": "https://atcoder.jp/contests/abc377",
@@ -144,7 +128,15 @@
         "duration": 6000
     },
     {
-        "id": "d04f21d315914f8baad7a4e66dc59671",
+        "id": "f51b1409ab0a40fb9f20af911afae00e",
+        "platform": "AtCoder",
+        "title": "AtCoder Regular Contest 186",
+        "url": "https://atcoder.jp/contests/arc186",
+        "start_time": "2024-10-27T21:00:00+09:00",
+        "duration": 7200
+    },
+    {
+        "id": "1bf92ee0ed4f4e21a2ddb2724355c766",
         "platform": "AtCoder",
         "title": "The 2nd Masters Championship-qual-",
         "url": "https://atcoder.jp/contests/masters2025-qual",
