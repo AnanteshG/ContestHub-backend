@@ -1,6 +1,6 @@
 [
     {
-        "id": "9e81f9a4bee44b4689a3a2a72be5480d",
+        "id": "32a61f917cca4c52b0c45c335475dbdf",
         "platform": "CodeChef",
         "title": "Starters 171",
         "url": "https://www.codechef.com/START171",
@@ -8,7 +8,7 @@
         "duration": 7200
     },
     {
-        "id": "07a1e710de214fd59739a827648aa8b3",
+        "id": "aa2d658b693e476195144a38c928b572",
         "platform": "CodeChef",
         "title": "Starters 172",
         "url": "https://www.codechef.com/START172",
@@ -16,7 +16,7 @@
         "duration": 7200
     },
     {
-        "id": "0d49a4379ae04cf6b8f7a978ea5e2fb7",
+        "id": "803e513440ac4b938401aef64560e97f",
         "platform": "Codeforces",
         "title": "Codeforces Round (Div. 2)",
         "url": "https://codeforces.com/contests/2059",
@@ -24,23 +24,7 @@
         "duration": 7200
     },
     {
-        "id": "5d526d9c24b54fada827faaa11521d02",
-        "platform": "Codeforces",
-        "title": "Ethflow Round 1 (Codeforces Round 1001, Div. 1 + Div. 2)",
-        "url": "https://codeforces.com/contests/2062",
-        "start_time": "2025-01-26T20:05:00+05:30",
-        "duration": 9000
-    },
-    {
-        "id": "6d0eb45403d44e4eb282f53fdc93d620",
-        "platform": "GeeksforGeeks",
-        "title": "GfG Weekly - 191 [Rated Contest]",
-        "url": "https://practice.geeksforgeeks.org/contest/gfg-weekly-191-rated-contest",
-        "start_time": "2025-01-27T00:30:00+05:30",
-        "duration": 5400
-    },
-    {
-        "id": "bdd00b98492c4fb18436386d9bb14352",
+        "id": "a3d92e45feea43f3ab84ab41bc40107e",
         "platform": "GeeksforGeeks",
         "title": "GfG Weekly - 192 [Rated Contest]",
         "url": "https://practice.geeksforgeeks.org/contest/gfg-weekly-192-rated-contest",
@@ -48,7 +32,7 @@
         "duration": 5400
     },
     {
-        "id": "82b86f3c182b4c588c9bfc30ab83f584",
+        "id": "bf8b71a6123a4550b8829cea5bf24c2b",
         "platform": "GeeksforGeeks",
         "title": "GfG Weekly - 193 [Rated Contest]",
         "url": "https://practice.geeksforgeeks.org/contest/gfg-weekly-193-rated-contest",
@@ -56,7 +40,7 @@
         "duration": 5400
     },
     {
-        "id": "8fba887eb68d4f00be823ebf8508ad56",
+        "id": "ec5cc8a6737b4031a1f68ac36116f9b1",
         "platform": "GeeksforGeeks",
         "title": "GfG Weekly - 194 [Rated Contest]",
         "url": "https://practice.geeksforgeeks.org/contest/gfg-weekly-194-rated-contest",
@@ -64,7 +48,7 @@
         "duration": 5400
     },
     {
-        "id": "bf36145d88da41118704bfb7aa99bb98",
+        "id": "da473d46e52643eabf63fa87c2e711c7",
         "platform": "GeeksforGeeks",
         "title": "Job-A-thon 42  Hiring Challenge",
         "url": "https://practice.geeksforgeeks.org/contest/job-a-thon-42-hiring-challenge",
@@ -72,7 +56,7 @@
         "duration": 7200
     },
     {
-        "id": "0c873bf902f14bbf8fd920efac7463d8",
+        "id": "4c807dd5b5134324b6c0b3c75bafdf70",
         "platform": "GeeksforGeeks",
         "title": "GfG Weekly - 195 [Rated Contest]",
         "url": "https://practice.geeksforgeeks.org/contest/gfg-weekly-195-rated-contest",
@@ -80,7 +64,15 @@
         "duration": 5400
     },
     {
-        "id": "71aa370862d64843997a4441a5e522ec",
+        "id": "8c5717358e5d4e159ce6fe647b2a7a6a",
+        "platform": "GeeksforGeeks",
+        "title": "GfG Weekly - 196 [Rated Contest]",
+        "url": "https://practice.geeksforgeeks.org/contest/gfg-weekly-196-rated-contest",
+        "start_time": "2025-03-03T00:30:00+05:30",
+        "duration": 5400
+    },
+    {
+        "id": "a0b4d77e110842dc8e22aa2fddcf067a",
         "platform": "LeetCode",
         "title": "Weekly Contest 435",
         "url": "https://leetcode.com/contest/weekly-contest-435",
@@ -88,7 +80,7 @@
         "duration": 5400
     },
     {
-        "id": "a1e6a7de1b9547b1a5fa1b7bba49cd61",
+        "id": "49f7b3669e65484cb4eebeb219ffa501",
         "platform": "LeetCode",
         "title": "Biweekly Contest 149",
         "url": "https://leetcode.com/contest/biweekly-contest-149",
