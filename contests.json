@@ -1,6 +1,6 @@
 [
     {
-        "id": "cc8424d587bf46a7b1297c276fc6890c",
+        "id": "4384509d79e044bd94e48a0a6e387b69",
         "platform": "CodeChef",
         "title": "Starters 172",
         "url": "https://www.codechef.com/START172",
@@ -8,7 +8,7 @@
         "duration": 7200
     },
     {
-        "id": "f52f86e757f44f5fa8b505f68c5ab6e4",
+        "id": "aa1c876b0ac54b98b2877856b810336f",
         "platform": "CodeChef",
         "title": "Starters 173",
         "url": "https://www.codechef.com/START173",
@@ -16,7 +16,7 @@
         "duration": 7200
     },
     {
-        "id": "af542c98462c4b22bc0731cb5aa98f62",
+        "id": "b76fb736baf9463499783d0a986c3fb5",
         "platform": "Codeforces",
         "title": "Codeforces Round (Div. 2)",
         "url": "https://codeforces.com/contests/2064",
@@ -24,7 +24,7 @@
         "duration": 7200
     },
     {
-        "id": "ead4eaf25cbc4ddfac2b7202b1fff922",
+        "id": "1c5a2e0aa65641db81f0029c8fdd682a",
         "platform": "Codeforces",
         "title": "Codeforces Round 1002 (Div. 2)",
         "url": "https://codeforces.com/contests/2059",
@@ -32,7 +32,7 @@
         "duration": 7200
     },
     {
-        "id": "34399eb4759a40768d221bdf5e2c7d44",
+        "id": "eb325e9c581441839a2585a06271d56c",
         "platform": "GeeksforGeeks",
         "title": "GfG Weekly - 192 [Rated Contest]",
         "url": "https://practice.geeksforgeeks.org/contest/gfg-weekly-192-rated-contest",
@@ -40,7 +40,7 @@
         "duration": 5400
     },
     {
-        "id": "c5b7e3a15d714f6a81a70820b9930ae2",
+        "id": "2c491dd0d1594a6dacb4f0a84b5fa0fb",
         "platform": "GeeksforGeeks",
         "title": "GfG Weekly - 193 [Rated Contest]",
         "url": "https://practice.geeksforgeeks.org/contest/gfg-weekly-193-rated-contest",
@@ -48,7 +48,7 @@
         "duration": 5400
     },
     {
-        "id": "1d01262c840f419f85fc95c2fd68c6c4",
+        "id": "b58b4c80871d409cb6fa8ff35c79ab00",
         "platform": "GeeksforGeeks",
         "title": "GfG Weekly - 194 [Rated Contest]",
         "url": "https://practice.geeksforgeeks.org/contest/gfg-weekly-194-rated-contest",
@@ -56,7 +56,7 @@
         "duration": 5400
     },
     {
-        "id": "f27507cb9b454f35bb91f980ecb94a60",
+        "id": "4b063c1824d640be92163ada318bdd83",
         "platform": "GeeksforGeeks",
         "title": "Job-A-thon 42  Hiring Challenge",
         "url": "https://practice.geeksforgeeks.org/contest/job-a-thon-42-hiring-challenge",
@@ -64,7 +64,7 @@
         "duration": 7200
     },
     {
-        "id": "f1a8632daff04275b6eb0bc8ea9dfb96",
+        "id": "dbb29d524e834f97b9c56584cc0afe70",
         "platform": "GeeksforGeeks",
         "title": "GfG Weekly - 195 [Rated Contest]",
         "url": "https://practice.geeksforgeeks.org/contest/gfg-weekly-195-rated-contest",
@@ -72,7 +72,7 @@
         "duration": 5400
     },
     {
-        "id": "34848bdcdeb64184a64a246ad4c65e57",
+        "id": "7f4a69e5913b44f287f49cbf41fcd4d7",
         "platform": "GeeksforGeeks",
         "title": "GfG Weekly - 196 [Rated Contest]",
         "url": "https://practice.geeksforgeeks.org/contest/gfg-weekly-196-rated-contest",
@@ -80,7 +80,7 @@
         "duration": 5400
     },
     {
-        "id": "7700941abb3e4ae596273474e6d98d53",
+        "id": "888decc12fd94ac5aa5dffff0214252d",
         "platform": "LeetCode",
         "title": "Weekly Contest 435",
         "url": "https://leetcode.com/contest/weekly-contest-435",
@@ -88,75 +88,11 @@
         "duration": 5400
     },
     {
-        "id": "0a414242084142a28e66c0c793d7499e",
+        "id": "edda3a9d606e4c1aa52d79c1a332fd27",
         "platform": "LeetCode",
         "title": "Biweekly Contest 149",
         "url": "https://leetcode.com/contest/biweekly-contest-149",
         "start_time": "2025-02-01T20:00:00+05:30",
         "duration": 5400
-    },
-    {
-        "id": "14831ee12f954f8c9c44f8fe40f1b05f",
-        "platform": "AtCoder",
-        "title": "AtCoder Beginner Contest 391",
-        "url": "https://atcoder.jp/contests/abc391",
-        "start_time": "2025-02-01T21:00:00+09:00",
-        "duration": 6000
-    },
-    {
-        "id": "fbea3d107d68490587a5a165ce5ad665",
-        "platform": "AtCoder",
-        "title": "AtCoder Heuristic Contest 042",
-        "url": "https://atcoder.jp/contests/ahc042",
-        "start_time": "2025-02-02T19:00:00+09:00",
-        "duration": 14400
-    },
-    {
-        "id": "ffb91e64181a4976ae77214b7cb56d1b",
-        "platform": "AtCoder",
-        "title": "Japan Registry Services (JPRS) Programming Contest 2025#1 (AtCoder Beginner Contest 392)",
-        "url": "https://atcoder.jp/contests/abc392",
-        "start_time": "2025-02-08T21:00:00+09:00",
-        "duration": 6000
-    },
-    {
-        "id": "490668268c144df893bee3b061d0bede",
-        "platform": "AtCoder",
-        "title": "AtCoder Regular Contest 192 (Div. 2)",
-        "url": "https://atcoder.jp/contests/arc192",
-        "start_time": "2025-02-09T21:00:00+09:00",
-        "duration": 7200
-    },
-    {
-        "id": "2fc69cc81b564d958798ff283b377a84",
-        "platform": "AtCoder",
-        "title": "RECRUIT Nihonbashi Half Marathon 2025 Winter\uff08AtCoder Heuristic Contest 043\uff09",
-        "url": "https://atcoder.jp/contests/ahc043",
-        "start_time": "2025-02-14T19:00:00+09:00",
-        "duration": 864000
-    },
-    {
-        "id": "20e6098565f94716a2a8f60924644c4b",
-        "platform": "AtCoder",
-        "title": "AtCoder Beginner Contest 393",
-        "url": "https://atcoder.jp/contests/abc393",
-        "start_time": "2025-02-15T21:00:00+09:00",
-        "duration": 6000
-    },
-    {
-        "id": "ebbfb191fabc4987be203f375b2ab3dd",
-        "platform": "AtCoder",
-        "title": "KAJIMA CORPORATION CONTEST 2025 (AtCoder Beginner Contest 394)",
-        "url": "https://atcoder.jp/contests/abc394",
-        "start_time": "2025-02-22T21:00:00+09:00",
-        "duration": 6000
-    },
-    {
-        "id": "c3870394fbee4998bf2da9b2377fcb2f",
-        "platform": "AtCoder",
-        "title": "The 2nd Masters Championship-qual-",
-        "url": "https://atcoder.jp/contests/masters2025-qual",
-        "start_time": "2025-03-02T13:00:00+09:00",
-        "duration": 21600
     }
 ]
