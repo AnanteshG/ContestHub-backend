@@ -1,6 +1,6 @@
 [
     {
-        "id": "4c3fd2442fdc470896024d39592a556f",
+        "id": "9d622672baf94a529bd2240dd8b2b1e5",
         "platform": "CodeChef",
         "title": "Starters 174",
         "url": "https://www.codechef.com/START174",
@@ -8,7 +8,7 @@
         "duration": 7200
     },
     {
-        "id": "7d7ae50aedb84877a569e119f736801d",
+        "id": "b913a373e0064866a266ff77324357d3",
         "platform": "CodeChef",
         "title": "Starters 175",
         "url": "https://www.codechef.com/START175",
@@ -16,7 +16,7 @@
         "duration": 7200
     },
     {
-        "id": "c856806ea5dd4a139e07ee621db0cd6c",
+        "id": "b565fd444d294ffabe24dfabc5f0329a",
         "platform": "Codeforces",
         "title": "European Championship 2025 - Online Mirror (Unrated, ICPC Rules, Teams Preferred)",
         "url": "https://codeforces.com/contests/2068",
@@ -24,7 +24,7 @@
         "duration": 18000
     },
     {
-        "id": "cce6d5291e7a4c2a8f82640bcecf1c51",
+        "id": "23449a27217d4fadbe4c5e0820c9ef7b",
         "platform": "Codeforces",
         "title": "Codeforces Round (Div. 2)",
         "url": "https://codeforces.com/contests/2071",
@@ -32,7 +32,7 @@
         "duration": 7200
     },
     {
-        "id": "eff744b289cc49eb96b0ce84712b3e23",
+        "id": "4c23c68f40b54060b4a21d29eb56a648",
         "platform": "Codeforces",
         "title": "Educational Codeforces Round 175 (Rated for Div. 2)",
         "url": "https://codeforces.com/contests/2070",
@@ -40,7 +40,7 @@
         "duration": 7200
     },
     {
-        "id": "6f27e63928d24e51a73cf7dde681f75a",
+        "id": "d1ff5e0180634adab6f4a9fafa976bb8",
         "platform": "Codeforces",
         "title": "Educational Codeforces Round 174 (Rated for Div. 2)",
         "url": "https://codeforces.com/contests/2069",
@@ -48,15 +48,15 @@
         "duration": 7200
     },
     {
-        "id": "42ac3ed462944c49be408b268bc4cb1c",
+        "id": "49ae51aa6f2c4b3eba7bed68293c1506",
         "platform": "Codeforces",
-        "title": "Codeforces Round (Div. 2)",
+        "title": "Codeforces Round 1005 (Div. 2)",
         "url": "https://codeforces.com/contests/2064",
         "start_time": "2025-02-16T20:05:00+05:30",
         "duration": 7200
     },
     {
-        "id": "fde3fb4d97d4489381792ae8d318c251",
+        "id": "0c06e1b5180642d68079c8974e066b3e",
         "platform": "GeeksforGeeks",
         "title": "GfG Weekly - 194 [Rated Contest]",
         "url": "https://practice.geeksforgeeks.org/contest/gfg-weekly-194-rated-contest",
@@ -64,7 +64,7 @@
         "duration": 5400
     },
     {
-        "id": "1302da06db284502a6516e18e581d084",
+        "id": "dd47240ab5604068a075d69f9fad65ad",
         "platform": "GeeksforGeeks",
         "title": "Job-A-thon 42  Hiring Challenge",
         "url": "https://practice.geeksforgeeks.org/contest/job-a-thon-42-hiring-challenge",
@@ -72,7 +72,7 @@
         "duration": 7200
     },
     {
-        "id": "e681ee32ade44e698bde65596b56287b",
+        "id": "731c1bfd5a18475d8f6962c2659b820b",
         "platform": "GeeksforGeeks",
         "title": "Pragyan(NIT Trichy)-GeekBlitz",
         "url": "https://practice.geeksforgeeks.org/contest/geekblitz-codeventure",
@@ -80,7 +80,7 @@
         "duration": 7200
     },
     {
-        "id": "37ceef0d8ac14e5a96a531b409e79aa1",
+        "id": "cbf94fe28e024a44b780dc8a1706f38b",
         "platform": "GeeksforGeeks",
         "title": "GfG Weekly - 195 [Rated Contest]",
         "url": "https://practice.geeksforgeeks.org/contest/gfg-weekly-195-rated-contest",
@@ -88,7 +88,7 @@
         "duration": 5400
     },
     {
-        "id": "e0b224b4d2ba48b2afc01fd0845fe71f",
+        "id": "892b73a3d5d94392a33fe7d71100cc07",
         "platform": "GeeksforGeeks",
         "title": "GfG Weekly - 196 [Rated Contest]",
         "url": "https://practice.geeksforgeeks.org/contest/gfg-weekly-196-rated-contest",
@@ -96,7 +96,7 @@
         "duration": 5400
     },
     {
-        "id": "340db717c89249b893c76cccbdd6a688",
+        "id": "e5b5eedee51d4a6196234143297d0f9b",
         "platform": "GeeksforGeeks",
         "title": "GfG Weekly - 197 [Rated Contest]",
         "url": "https://practice.geeksforgeeks.org/contest/gfg-weekly-197-rated-contest",
@@ -104,7 +104,7 @@
         "duration": 5400
     },
     {
-        "id": "dbbe42b23eef4781ae08246d9842fa31",
+        "id": "5f3bc1fd6e45425e9e5618ac0e20c90e",
         "platform": "LeetCode",
         "title": "Weekly Contest 437",
         "url": "https://leetcode.com/contest/weekly-contest-437",
@@ -112,7 +112,7 @@
         "duration": 5400
     },
     {
-        "id": "fc13558949c542f98b2a3a44db6dafe5",
+        "id": "24ca6c6be4e944c7b097700aea6a39f8",
         "platform": "LeetCode",
         "title": "Biweekly Contest 150",
         "url": "https://leetcode.com/contest/biweekly-contest-150",
