@@ -1,6 +1,6 @@
 [
     {
-        "id": "0300853264d54722a0abcaeb9e4ee88b",
+        "id": "19f46c2ce6c64272b94c2e769897c37f",
         "platform": "CodeChef",
         "title": "Starters 174",
         "url": "https://www.codechef.com/START174",
@@ -8,7 +8,7 @@
         "duration": 7200
     },
     {
-        "id": "49e585fd0fdd4407a7f88e320da79956",
+        "id": "a5681fd86d8741d083ca5ebd79bcd30d",
         "platform": "CodeChef",
         "title": "Starters 175",
         "url": "https://www.codechef.com/START175",
@@ -16,7 +16,7 @@
         "duration": 7200
     },
     {
-        "id": "54b0f040f6504a4e816ce98f9d815555",
+        "id": "c41715c2d07f4a5a886a8afaeade5df2",
         "platform": "Codeforces",
         "title": "European Championship 2025 - Online Mirror (Unrated, ICPC Rules, Teams Preferred)",
         "url": "https://codeforces.com/contests/2068",
@@ -24,7 +24,7 @@
         "duration": 18000
     },
     {
-        "id": "cca9d44a338740879cd7653374946048",
+        "id": "11f1365ab7fa4746883f7eebcb9bbae0",
         "platform": "Codeforces",
         "title": "Codeforces Round (Div. 2)",
         "url": "https://codeforces.com/contests/2071",
@@ -32,7 +32,7 @@
         "duration": 7200
     },
     {
-        "id": "9599e71fcf4e453fba5b46387c32d1fd",
+        "id": "ead6ce677d1d4d739b18ad20940c7f3b",
         "platform": "Codeforces",
         "title": "Educational Codeforces Round 175 (Rated for Div. 2)",
         "url": "https://codeforces.com/contests/2070",
@@ -40,7 +40,7 @@
         "duration": 7200
     },
     {
-        "id": "312407a78e8b4e3a97af538bbd9bf976",
+        "id": "b141eb7937824544859250a8aad07eb5",
         "platform": "Codeforces",
         "title": "Educational Codeforces Round 174 (Rated for Div. 2)",
         "url": "https://codeforces.com/contests/2069",
@@ -48,7 +48,7 @@
         "duration": 7200
     },
     {
-        "id": "725d9c154e644f7d926a1d0049a9ffd3",
+        "id": "1d37deb7f3b64d249d80ae79d10d952e",
         "platform": "GeeksforGeeks",
         "title": "Job-A-thon 42  Hiring Challenge",
         "url": "https://practice.geeksforgeeks.org/contest/job-a-thon-42-hiring-challenge",
@@ -56,7 +56,7 @@
         "duration": 7200
     },
     {
-        "id": "84b9af1e13ea471dbeb6b2b0a25538fa",
+        "id": "053ffebeafb2465bbf7090f1a5689791",
         "platform": "GeeksforGeeks",
         "title": "Pragyan(NIT Trichy)-GeekBlitz",
         "url": "https://practice.geeksforgeeks.org/contest/geekblitz-codeventure",
@@ -64,7 +64,7 @@
         "duration": 7200
     },
     {
-        "id": "eaca0d3dd2434b59bc5113ec623e7655",
+        "id": "42fb364a011f4b07b8a798073c8f2b7b",
         "platform": "GeeksforGeeks",
         "title": "GfG Weekly - 195 [Rated Contest]",
         "url": "https://practice.geeksforgeeks.org/contest/gfg-weekly-195-rated-contest",
@@ -72,7 +72,7 @@
         "duration": 5400
     },
     {
-        "id": "707aa61827cf443992f2031ee5389e17",
+        "id": "0e3572a9990c4cf489e8598fc10802ee",
         "platform": "GeeksforGeeks",
         "title": "GfG Weekly - 196 [Rated Contest]",
         "url": "https://practice.geeksforgeeks.org/contest/gfg-weekly-196-rated-contest",
@@ -80,7 +80,7 @@
         "duration": 5400
     },
     {
-        "id": "d415d0105e9244a79cb1a66554dbac7a",
+        "id": "66f470fb13104641adda485516b51a52",
         "platform": "GeeksforGeeks",
         "title": "GfG Weekly - 197 [Rated Contest]",
         "url": "https://practice.geeksforgeeks.org/contest/gfg-weekly-197-rated-contest",
@@ -88,7 +88,7 @@
         "duration": 5400
     },
     {
-        "id": "efa60da1042c476b98ef8f81d0eefbcf",
+        "id": "63cb5b0727c34aca97793663eec11a6e",
         "platform": "LeetCode",
         "title": "Biweekly Contest 151",
         "url": "https://leetcode.com/contest/biweekly-contest-151",
@@ -96,7 +96,7 @@
         "duration": 5400
     },
     {
-        "id": "62e3257993e34f15b491ae8ac7002d32",
+        "id": "03fdfc4bf2524ad98289c5a942876105",
         "platform": "LeetCode",
         "title": "Weekly Contest 438",
         "url": "https://leetcode.com/contest/weekly-contest-438",
