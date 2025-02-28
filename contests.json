@@ -1,6 +1,6 @@
 [
     {
-        "id": "f97e4a58c320443b8b1cdcf5527e71b3",
+        "id": "8e2e78defccc4526bcaa19a58e28a73e",
         "platform": "CodeChef",
         "title": "Starters 176",
         "url": "https://www.codechef.com/START176",
@@ -8,7 +8,7 @@
         "duration": 7200
     },
     {
-        "id": "38d9145330da40f98089190d504770fa",
+        "id": "8c8663824dce44e591bc52b18b53299f",
         "platform": "CodeChef",
         "title": "Starters 177",
         "url": "https://www.codechef.com/START177",
@@ -16,7 +16,7 @@
         "duration": 7200
     },
     {
-        "id": "f659a18f502c47b989057769acf48568",
+        "id": "36bdd6f0173c4f5ea494cebe2bb90c4b",
         "platform": "Codeforces",
         "title": "European Championship 2025 - Online Mirror (Unrated, ICPC Rules, Teams Preferred)",
         "url": "https://codeforces.com/contests/2068",
@@ -24,7 +24,7 @@
         "duration": 18000
     },
     {
-        "id": "ffeaf16a0a354f1db7bafa88a581ac24",
+        "id": "db81fa310b9f4424b0f3ca85c0e088ef",
         "platform": "Codeforces",
         "title": "2025 ICPC Asia Pacific Championship - Online Mirror (Unrated, Online Mirror, ICPC Rules, Teams Preferred)",
         "url": "https://codeforces.com/contests/2073",
@@ -32,23 +32,15 @@
         "duration": 18000
     },
     {
-        "id": "65f87ca8f9b2496a90a15ba4f69169d2",
+        "id": "9566f2ed72c149c184c728a24c16ec15",
         "platform": "Codeforces",
-        "title": "Codeforces Round (Div. 2)",
+        "title": "Codeforces Round 1007 (Div. 2)",
         "url": "https://codeforces.com/contests/2071",
         "start_time": "2025-02-28T20:05:00+05:30",
         "duration": 8100
     },
     {
-        "id": "7ee10434da744138b33eaa4c653f7582",
-        "platform": "Codeforces",
-        "title": "Educational Codeforces Round 175 (Rated for Div. 2)",
-        "url": "https://codeforces.com/contests/2070",
-        "start_time": "2025-02-27T20:05:00+05:30",
-        "duration": 7200
-    },
-    {
-        "id": "174d455c1deb49879221b091354c244b",
+        "id": "9371711a20b84ef58399d16523b07a67",
         "platform": "GeeksforGeeks",
         "title": "GfG Weekly - 196 [Rated Contest]",
         "url": "https://practice.geeksforgeeks.org/contest/gfg-weekly-196-rated-contest",
@@ -56,7 +48,7 @@
         "duration": 5400
     },
     {
-        "id": "a614ef2964ff4da199a14125328bdb83",
+        "id": "344290ec7f93465187d2274f3e29a9ad",
         "platform": "GeeksforGeeks",
         "title": "GfG Weekly - 197 [Rated Contest]",
         "url": "https://practice.geeksforgeeks.org/contest/gfg-weekly-197-rated-contest",
@@ -64,7 +56,7 @@
         "duration": 5400
     },
     {
-        "id": "82d6f20fb52c4e79928f6cfb80d44beb",
+        "id": "9d9888c747d244d89e509ad6f8145943",
         "platform": "GeeksforGeeks",
         "title": "Job-A-thon 43  Hiring Challenge",
         "url": "https://practice.geeksforgeeks.org/contest/job-a-thon-43-hiring-challenge",
@@ -72,7 +64,7 @@
         "duration": 7200
     },
     {
-        "id": "dda781d18ea94f06844116a908077477",
+        "id": "6ff4c632ff8e4f47a16710b738ffead4",
         "platform": "LeetCode",
         "title": "Weekly Contest 439",
         "url": "https://leetcode.com/contest/weekly-contest-439",
@@ -80,7 +72,7 @@
         "duration": 5400
     },
     {
-        "id": "0f3967a2ff9c49efa1450c539f5d99d1",
+        "id": "5943ffd690ac4bd395e6826dcedcaeae",
         "platform": "LeetCode",
         "title": "Biweekly Contest 151",
         "url": "https://leetcode.com/contest/biweekly-contest-151",
@@ -88,7 +80,39 @@
         "duration": 5400
     },
     {
-        "id": "dd98838400b34d93ab6205b2c52f96ad",
+        "id": "2d15c30ab76542e3b2965d4beb8fc6b7",
+        "platform": "HackerEarth",
+        "title": "NI Software Engineer Hiring Challenge 2025",
+        "url": "https://www.hackerearth.com/challenges/competitive/ni-software-engineer-hiring-challenge-2025/",
+        "start_time": "2025-02-28T12:30:00",
+        "duration": 194340
+    },
+    {
+        "id": "be09eff7a9a14e3e97133953cca14fe9",
+        "platform": "HackerEarth",
+        "title": "DSA Chronicles",
+        "url": "https://www.hackerearth.com/challenges/competitive/dsa-chronicles/",
+        "start_time": "2025-03-01T12:30:00",
+        "duration": 21600
+    },
+    {
+        "id": "04956fd55b99425494bd379a3671d72b",
+        "platform": "HackerEarth",
+        "title": "WiSE (Women in Software Engineering)",
+        "url": "https://www.hackerearth.com/challenges/competitive/texas-instruments-wise-hackathon/",
+        "start_time": "2025-02-28T12:30:00",
+        "duration": 194340
+    },
+    {
+        "id": "8d697ddef9bc4f3fb558464e3ce6626d",
+        "platform": "HackerEarth",
+        "title": "Global Scholar Challenge (2nd Edition)",
+        "url": "https://www.hackerearth.com/challenges/competitive/global-scholar-challenge-2025/",
+        "start_time": "2025-03-28T12:30:00",
+        "duration": 5032740
+    },
+    {
+        "id": "544fcb027e61409eb5a1db1f84529c2c",
         "platform": "AtCoder",
         "title": "AtCoder Beginner Contest 395",
         "url": "https://atcoder.jp/contests/abc395",
@@ -96,7 +120,7 @@
         "duration": 6000
     },
     {
-        "id": "767b5a66faed41158e8dbd275929c727",
+        "id": "e33a4ddd7c5142deb3c972ee1e34ae41",
         "platform": "AtCoder",
         "title": "The 2nd Masters Championship-qual-",
         "url": "https://atcoder.jp/contests/masters2025-qual",
@@ -104,7 +128,7 @@
         "duration": 21600
     },
     {
-        "id": "ca169a0985254cd18fe2c495abf575c0",
+        "id": "988c17de65d947cd94f6492b25157ef2",
         "platform": "AtCoder",
         "title": "AtCoder Beginner Contest 396",
         "url": "https://atcoder.jp/contests/abc396",
@@ -112,7 +136,7 @@
         "duration": 6000
     },
     {
-        "id": "8612e7b3b90f493092992b735879d1c8",
+        "id": "13bea1264052420599f4843811bfd92f",
         "platform": "AtCoder",
         "title": "AtCoder Regular Contest 194 (Div. 2)",
         "url": "https://atcoder.jp/contests/arc194",
@@ -120,7 +144,7 @@
         "duration": 7200
     },
     {
-        "id": "09a50247e5134ab396d783204fe05d1b",
+        "id": "d4ba0336e3794f2eb4d52b18c78c0d5f",
         "platform": "AtCoder",
         "title": "OMRON Corporation Programming Contest 2025 (AtCoder Beginner Contest 397)",
         "url": "https://atcoder.jp/contests/abc397",
@@ -128,7 +152,7 @@
         "duration": 6000
     },
     {
-        "id": "ab26cbe189be40939d0a9c2cb09300b8",
+        "id": "54731e4fbb1446f0b3c2fb382e1342d0",
         "platform": "AtCoder",
         "title": "AtCoder Heuristic Contest 044",
         "url": "https://atcoder.jp/contests/ahc044",
@@ -136,7 +160,7 @@
         "duration": 14400
     },
     {
-        "id": "bf8a424fd7f64f54a85dcc28efa87ceb",
+        "id": "2d78e67881a84743a4a726e1e6a138ad",
         "platform": "AtCoder",
         "title": "UNIQUE VISION Programming Contest 2025 Spring (AtCoder Beginner Contest 398)",
         "url": "https://atcoder.jp/contests/abc398",
@@ -144,7 +168,7 @@
         "duration": 6000
     },
     {
-        "id": "89887e67195141e29a3b6617380de6cc",
+        "id": "36ef4b6ac6b24712b9f3678a343c0aea",
         "platform": "AtCoder",
         "title": "AtCoder Regular Contest 195 (Div. 2)",
         "url": "https://atcoder.jp/contests/arc195",
@@ -152,7 +176,7 @@
         "duration": 7200
     },
     {
-        "id": "e89b3b996c3a49538841194e9ce48460",
+        "id": "5cc051502917408ca62071d5881037dd",
         "platform": "AtCoder",
         "title": "THIRD PROGRAMMING CONTEST 2025\uff08AtCoder Heuristic Contest 045\uff09",
         "url": "https://atcoder.jp/contests/ahc045",
@@ -160,7 +184,7 @@
         "duration": 864000
     },
     {
-        "id": "75e7520223f847eaaadd67e2e1d80ed0",
+        "id": "342e25ccaee0457b9a6b92530414905e",
         "platform": "AtCoder",
         "title": "AtCoder Grand Contest 071",
         "url": "https://atcoder.jp/contests/agc071",
@@ -168,7 +192,7 @@
         "duration": 10800
     },
     {
-        "id": "47f84d0f4af243a9b2d0774822a19512",
+        "id": "1a9305f7af5d4f2a892c7ff620a28713",
         "platform": "AtCoder",
         "title": "AtCoder Beginner Contest 410",
         "url": "https://atcoder.jp/contests/abc410",
@@ -176,7 +200,7 @@
         "duration": 6000
     },
     {
-        "id": "21a6cd767e26487bbf224b8b6bee4b89",
+        "id": "40b5b25b0e6e4425bbd6c91323808662",
         "platform": "AtCoder",
         "title": "World Tour Finals 2025 Algorithm",
         "url": "https://atcoder.jp/contests/awtf2025algo",
@@ -184,7 +208,7 @@
         "duration": 18000
     },
     {
-        "id": "79e857dc635e4004ba7fbc216536ac0b",
+        "id": "e5cf9e6d62e146a3a69c26687e566625",
         "platform": "AtCoder",
         "title": "World Tour Finals 2025 Algorithm\uff08Open Contest\uff09",
         "url": "https://atcoder.jp/contests/awtf2025algo-open",
