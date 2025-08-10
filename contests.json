@@ -1,6 +1,14 @@
 [
     {
-        "id": "b9fd945236134efdacb97eda5e64ec86",
+        "id": "19e358fd556547e884290fe371a55eb3",
+        "platform": "Codeforces",
+        "title": "Codeforces Round (Div. 3)",
+        "url": "https://codeforces.com/contests/2132",
+        "start_time": "2025-08-21T20:05:00+05:30",
+        "duration": 8100
+    },
+    {
+        "id": "e28e2e8aa6a944f5ac24c1fbd9d2c2d9",
         "platform": "Codeforces",
         "title": "Codeforces Round 1042 (Div. 3)",
         "url": "https://codeforces.com/contests/2131",
@@ -8,7 +16,7 @@
         "duration": 8100
     },
     {
-        "id": "22d57ca1d00f471a88dfef45947c0d60",
+        "id": "418c218d71db4b308263f6aa26f4fc76",
         "platform": "GeeksforGeeks",
         "title": "Job-A-thon 46 Hiring Challenge",
         "url": "https://practice.geeksforgeeks.org/contest/job-a-thon-46-hiring-challenge",
@@ -16,7 +24,15 @@
         "duration": 9000
     },
     {
-        "id": "04e85b6eaf9d4e7796fe8a0c3052b6a2",
+        "id": "fb5ab9c9109d490e8ed381fc3335f808",
+        "platform": "LeetCode",
+        "title": "Weekly Contest 463",
+        "url": "https://leetcode.com/contest/weekly-contest-463",
+        "start_time": "2025-08-17T08:00:00+05:30",
+        "duration": 5400
+    },
+    {
+        "id": "1808024c085e4336a229348f421c3b95",
         "platform": "LeetCode",
         "title": "Biweekly Contest 163",
         "url": "https://leetcode.com/contest/biweekly-contest-163",
@@ -24,23 +40,7 @@
         "duration": 5400
     },
     {
-        "id": "2cc399035c694efe8aa4fcd814ac6332",
-        "platform": "LeetCode",
-        "title": "Weekly Contest 462",
-        "url": "https://leetcode.com/contest/weekly-contest-462",
-        "start_time": "2025-08-10T08:00:00+05:30",
-        "duration": 5400
-    },
-    {
-        "id": "bd01d9f1b6794c0292170049b6cbf3fb",
-        "platform": "AtCoder",
-        "title": "AtCoder Beginner Contest 418",
-        "url": "https://atcoder.jp/contests/abc418",
-        "start_time": "2025-08-09T21:00:00+09:00",
-        "duration": 6000
-    },
-    {
-        "id": "da76c9f8f7434a8fb910006a70446901",
+        "id": "e2a93213913b4887a8ba39b99bdfc548",
         "platform": "AtCoder",
         "title": "AtCoder Beginner Contest 419",
         "url": "https://atcoder.jp/contests/abc419",
@@ -48,7 +48,7 @@
         "duration": 6000
     },
     {
-        "id": "35e2b363d4194732adb476e2812c36f2",
+        "id": "9d968a5ba427469685143d877ac39cb6",
         "platform": "AtCoder",
         "title": "AtCoder Regular Contest 204 (Div. 1)",
         "url": "https://atcoder.jp/contests/arc204",
@@ -56,7 +56,7 @@
         "duration": 9000
     },
     {
-        "id": "f8c19ceb79524376ab13de2991a8c9a5",
+        "id": "ee75d84fbc1c407e9f6813f7cffb1c6c",
         "platform": "AtCoder",
         "title": "AtCoder Heuristic Contest 052",
         "url": "https://atcoder.jp/contests/ahc052",
@@ -64,7 +64,7 @@
         "duration": 14400
     },
     {
-        "id": "b7079a722168469c99e99d0a0c985e23",
+        "id": "f4067e318f814fd98ae752b75bf32c22",
         "platform": "AtCoder",
         "title": "AtCoder Beginner Contest 420",
         "url": "https://atcoder.jp/contests/abc420",
@@ -72,7 +72,7 @@
         "duration": 6000
     },
     {
-        "id": "ac7940a4119d439a94900573be084ab9",
+        "id": "640b35d1bbca4ddd8a860ada099d20e1",
         "platform": "AtCoder",
         "title": "AtCoder Beginner Contest 421",
         "url": "https://atcoder.jp/contests/abc421",
@@ -80,7 +80,7 @@
         "duration": 6000
     },
     {
-        "id": "ec4de3afc0444e23b4b4ca1c369e6fe6",
+        "id": "83379291d7164231b9b7e475eca85cb7",
         "platform": "AtCoder",
         "title": "AtCoder Beginner Contest 422",
         "url": "https://atcoder.jp/contests/abc422",
@@ -88,7 +88,7 @@
         "duration": 6000
     },
     {
-        "id": "ca6438c7eb1b4442af45c29d2f2c2ea5",
+        "id": "540794a7c60c4933a8e6994cd96f2459",
         "platform": "AtCoder",
         "title": "12th Asprova Programming Contest\uff08AtCoder Heuristic Contest 053\uff09",
         "url": "https://atcoder.jp/contests/ahc053",
