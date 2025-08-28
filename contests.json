@@ -1,6 +1,14 @@
 [
     {
-        "id": "dea8201987ac4d3490d58a2d2c304d05",
+        "id": "60e886defadf4d32bf5ca4c03ade175c",
+        "platform": "Codeforces",
+        "title": "Codeforces Round (Div. 2)",
+        "url": "https://codeforces.com/contests/2140",
+        "start_time": "2025-09-09T20:05:00+05:30",
+        "duration": 7200
+    },
+    {
+        "id": "3d91383ef1b2406fa67276438ba3fa2a",
         "platform": "Codeforces",
         "title": "Codeforces Round (Div. 1)",
         "url": "https://codeforces.com/contests/2138",
@@ -8,7 +16,7 @@
         "duration": 10800
     },
     {
-        "id": "80f0d53c3469442b94a40a15207c2479",
+        "id": "5fbe70cf98454a74bc0ffed303799368",
         "platform": "Codeforces",
         "title": "Codeforces Round (Div. 2)",
         "url": "https://codeforces.com/contests/2139",
@@ -16,7 +24,7 @@
         "duration": 10800
     },
     {
-        "id": "29640829846d43f8be0176045d4116af",
+        "id": "87751348689f4bb89916632498037f5f",
         "platform": "Codeforces",
         "title": "Codeforces Round (Div. 3)",
         "url": "https://codeforces.com/contests/2137",
@@ -24,7 +32,7 @@
         "duration": 8100
     },
     {
-        "id": "18a05b6457e748d49de2b58be5ecfbe2",
+        "id": "41625ee812664286a2aa9e01522646c6",
         "platform": "Codeforces",
         "title": "Codeforces Round 1046 (Div. 1)",
         "url": "https://codeforces.com/contests/2135",
@@ -32,7 +40,7 @@
         "duration": 10800
     },
     {
-        "id": "7d3eec4b42124f6c85450d3cbaab98e2",
+        "id": "7f3a1019f2e44327a716afb3edd260b2",
         "platform": "Codeforces",
         "title": "Codeforces Round 1046 (Div. 2)",
         "url": "https://codeforces.com/contests/2136",
@@ -40,7 +48,7 @@
         "duration": 10800
     },
     {
-        "id": "1d55a3b1d30146e58eb84111b20e50d3",
+        "id": "f6a6a9a07903483e9203a0bf9085c72f",
         "platform": "GeeksforGeeks",
         "title": "Job-A-thon 47 Hiring Challenge",
         "url": "https://practice.geeksforgeeks.org/contest/job-a-thon-47-hiring-challenge-1304",
@@ -48,7 +56,7 @@
         "duration": 9000
     },
     {
-        "id": "63ac5480e01f49cb85d6c8ee35a83fd6",
+        "id": "da14fa518955460994ffaadfde1e4147",
         "platform": "GeeksforGeeks",
         "title": "Logical Reasoning (Part 3)",
         "url": "https://practice.geeksforgeeks.org/contest/logical-reasoning-part-3",
@@ -56,7 +64,7 @@
         "duration": 421286400
     },
     {
-        "id": "f28c335dd6a049e6ab08637610788dc1",
+        "id": "6c0253acdf974501b1815ec9bf31b942",
         "platform": "LeetCode",
         "title": "Weekly Contest 465",
         "url": "https://leetcode.com/contest/weekly-contest-465",
@@ -64,7 +72,7 @@
         "duration": 5400
     },
     {
-        "id": "c9e973b943e6454d81448d2245798827",
+        "id": "c9be38c537aa4e29b6cb27ca82c59c91",
         "platform": "LeetCode",
         "title": "Biweekly Contest 164",
         "url": "https://leetcode.com/contest/biweekly-contest-164",
@@ -72,7 +80,7 @@
         "duration": 5400
     },
     {
-        "id": "243b451f28ed4346adaf8e369842aa3f",
+        "id": "31ec3fbba7e5492881d47f55303bdd73",
         "platform": "AtCoder",
         "title": "AtCoder Beginner Contest 421",
         "url": "https://atcoder.jp/contests/abc421",
@@ -80,7 +88,7 @@
         "duration": 6000
     },
     {
-        "id": "2254841f74fd4e9eb6ab8629ddbd0a1b",
+        "id": "4c8b52239de145feae80bcd6384eb9de",
         "platform": "AtCoder",
         "title": "AtCoder Regular Contest 205 (Div. 2)",
         "url": "https://atcoder.jp/contests/arc205",
@@ -88,7 +96,7 @@
         "duration": 7200
     },
     {
-        "id": "bcf71ba8acff4e969bbfc264c7407fbd",
+        "id": "2cc6387d6011472389d3af013fde56b3",
         "platform": "AtCoder",
         "title": "AtCoder Beginner Contest 422",
         "url": "https://atcoder.jp/contests/abc422",
@@ -96,7 +104,7 @@
         "duration": 6000
     },
     {
-        "id": "bcadb10771cd4fe79244ff750cd2404a",
+        "id": "23af4676d7514853ae9fade6dcdd8a65",
         "platform": "AtCoder",
         "title": "12th Asprova Programming Contest\uff08AtCoder Heuristic Contest 053\uff09",
         "url": "https://atcoder.jp/contests/ahc053",
@@ -104,7 +112,7 @@
         "duration": 14400
     },
     {
-        "id": "db62ce397672403c9e3a78deaa4ee85f",
+        "id": "177108c66807486d8dd95a200bdfc429",
         "platform": "AtCoder",
         "title": "AtCoder Beginner Contest 423",
         "url": "https://atcoder.jp/contests/abc423",
@@ -112,7 +120,7 @@
         "duration": 6000
     },
     {
-        "id": "ab4f12a9e52645d3bdd68328f6c52b45",
+        "id": "bde81199b6524d289cf903b7f642e6bf",
         "platform": "AtCoder",
         "title": "ALGO ARTIS Programming Contest 2025 Summer\uff08AtCoder Heuristic Contest 054\uff09",
         "url": "https://atcoder.jp/contests/ahc054",
@@ -120,7 +128,7 @@
         "duration": 864000
     },
     {
-        "id": "257ec7c79fb2420c9debae6545661028",
+        "id": "9230317f97a849f8b2bd4dee742dc413",
         "platform": "AtCoder",
         "title": "AtCoder \u00d7 Engineer Guild\uff08AtCoder Beginner Contest 424\uff09",
         "url": "https://atcoder.jp/contests/abc424",
@@ -128,7 +136,7 @@
         "duration": 6000
     },
     {
-        "id": "f340e6e4b9e14475974ab2ebbe52eca7",
+        "id": "f920f6f57c344df0a9c24db74f0aa9b8",
         "platform": "AtCoder",
         "title": "UNIQUE VISION Programming Contest 2024 Autumn (AtCoder Beginner Contest 425)",
         "url": "https://atcoder.jp/contests/abc425",
@@ -136,7 +144,7 @@
         "duration": 6000
     },
     {
-        "id": "ed98689476a54000ab44f55386939e30",
+        "id": "2557b7ffe7ce4117990d00776cd91e63",
         "platform": "AtCoder",
         "title": "AtCoder Grand Contest 073",
         "url": "https://atcoder.jp/contests/agc073",
@@ -144,7 +152,7 @@
         "duration": 10800
     },
     {
-        "id": "574a49f39e9146efa7949c7f7bfa8209",
+        "id": "8958428666e74fcca330f916038f4f23",
         "platform": "AtCoder",
         "title": "AtCoder Regular Contest 207 (Div.1)",
         "url": "https://atcoder.jp/contests/arc207",
