@@ -1,6 +1,6 @@
 [
     {
-        "id": "afeb997dd7664b469ebdc322be1027c2",
+        "id": "fae63325fd5840a7bb00984c56328d89",
         "platform": "Codeforces",
         "title": "Codeforces Round (Div. 2)",
         "url": "https://codeforces.com/contests/2156",
@@ -8,7 +8,7 @@
         "duration": 7200
     },
     {
-        "id": "7c6a688b2e824a578c507006504de15a",
+        "id": "7c500b282d214c4283e9c7f54cfe4bba",
         "platform": "Codeforces",
         "title": "Codeforces Round (Div. 2)",
         "url": "https://codeforces.com/contests/2154",
@@ -16,7 +16,7 @@
         "duration": 7200
     },
     {
-        "id": "0200b9b8fe5f442d895eb01933a8f82e",
+        "id": "4163ff2b2c3e4aa1ac253bf344d98695",
         "platform": "Codeforces",
         "title": "Codeforces Round (Div. 1)",
         "url": "https://codeforces.com/contests/2159",
@@ -24,7 +24,7 @@
         "duration": 9000
     },
     {
-        "id": "98ae2b37240f4fb1b0a4240dba1ab7af",
+        "id": "7161cec320024456b026b01f8e576951",
         "platform": "Codeforces",
         "title": "Codeforces Round (Div. 2)",
         "url": "https://codeforces.com/contests/2160",
@@ -32,7 +32,7 @@
         "duration": 9000
     },
     {
-        "id": "eb1a35dad8664041b329abd7b88e855d",
+        "id": "e00f24496ffb43d190c0dcad1165cd99",
         "platform": "Codeforces",
         "title": "Codeforces Round 1057 (Div. 2)",
         "url": "https://codeforces.com/contests/2153",
@@ -40,7 +40,7 @@
         "duration": 7200
     },
     {
-        "id": "35d767ed2ab84799bcb1ed177f0a51fe",
+        "id": "c977ed810a9745a6afa0fb0ef697f2ff",
         "platform": "LeetCode",
         "title": "Weekly Contest 471",
         "url": "https://leetcode.com/contest/weekly-contest-471",
@@ -48,7 +48,7 @@
         "duration": 5400
     },
     {
-        "id": "e4c8a73c690741388aea43eb20d0eed7",
+        "id": "5a6419f44ca94e5aaf74ffbd27da0e30",
         "platform": "LeetCode",
         "title": "Biweekly Contest 167",
         "url": "https://leetcode.com/contest/biweekly-contest-167",
@@ -56,7 +56,7 @@
         "duration": 5400
     },
     {
-        "id": "e73651fb9c99428e8fd88ca2dc1a7058",
+        "id": "ecd4eb21ab7241a082d68ba49b602539",
         "platform": "AtCoder",
         "title": "Panasonic Programming Contest 2025\uff08AtCoder Beginner Contest 427\uff09",
         "url": "https://atcoder.jp/contests/abc427",
@@ -64,7 +64,7 @@
         "duration": 6000
     },
     {
-        "id": "49b3fc10fe7a4d35b30d245cff591d9d",
+        "id": "5b243f17304d40d2af041466f8b883b5",
         "platform": "AtCoder",
         "title": "AtCoder Regular Contest 208 (Div. 2)",
         "url": "https://atcoder.jp/contests/arc208",
@@ -72,7 +72,7 @@
         "duration": 7200
     },
     {
-        "id": "dc579a45136642798c5c6042a95a6cc8",
+        "id": "32138374a790408ca6d536c73a0636d7",
         "platform": "AtCoder",
         "title": "AtCoder Beginner Contest 428",
         "url": "https://atcoder.jp/contests/abc428",
@@ -80,7 +80,7 @@
         "duration": 6000
     },
     {
-        "id": "b15167e3ce2e4ceca9b793923a14082a",
+        "id": "76c80ccc763f4d498b66cbfd38c5ce86",
         "platform": "AtCoder",
         "title": "RECRUIT Nihonbashi Half Marathon 2025 Autumn \uff08AtCoder Heuristic Contest 055\uff09",
         "url": "https://atcoder.jp/contests/ahc055",
@@ -88,11 +88,27 @@
         "duration": 14400
     },
     {
-        "id": "39e48ed45ece4883bfb220247d8695e5",
+        "id": "7a2503f9b107422d916942d4f083159f",
         "platform": "AtCoder",
         "title": "Polaris.AI Programming Contest 2025\uff08AtCoder Beginner Contest 429\uff09",
         "url": "https://atcoder.jp/contests/abc429",
         "start_time": "2025-10-25T21:00:00+09:00",
         "duration": 6000
+    },
+    {
+        "id": "2a39436c5e7643729aa47d6957eb4ac2",
+        "platform": "AtCoder",
+        "title": "FPS 24: 24 Problems on Formal Power Series",
+        "url": "https://atcoder.jp/contests/fps-24",
+        "start_time": "2025-10-26T13:00:00+09:00",
+        "duration": 18000
+    },
+    {
+        "id": "d8ac09591cd94a31b8629f96b9a6a785",
+        "platform": "AtCoder",
+        "title": "HACK TO THE FUTURE 2026 \uff08AtCoder Heuristic Contest 056\uff09",
+        "url": "https://atcoder.jp/contests/ahc056",
+        "start_time": "2025-11-07T19:00:00+09:00",
+        "duration": 864000
     }
 ]
