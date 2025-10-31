@@ -1,6 +1,6 @@
 [
     {
-        "id": "e8c5b3b10c6443049a8b4e041af67200",
+        "id": "c960ddb40870416682eda84d9e3c9bcf",
         "platform": "Codeforces",
         "title": "Codeforces Round (Div. 1)",
         "url": "https://codeforces.com/contests/2165",
@@ -8,7 +8,7 @@
         "duration": 7200
     },
     {
-        "id": "aaaa8ca9d6da49d99fe18b0c54045ba3",
+        "id": "fe662cc9cde04d158045580669ef2e23",
         "platform": "Codeforces",
         "title": "Codeforces Round (Div. 2)",
         "url": "https://codeforces.com/contests/2166",
@@ -16,7 +16,7 @@
         "duration": 7200
     },
     {
-        "id": "65713e5508d0407cb43985803b420b8b",
+        "id": "4acde2e3bc7e47e8863afccdcc88d34f",
         "platform": "Codeforces",
         "title": "Codeforces Global Round 30 (Div. 1 + Div. 2)",
         "url": "https://codeforces.com/contests/2164",
@@ -24,15 +24,7 @@
         "duration": 10800
     },
     {
-        "id": "f3f51973a51341d1902600e2fd510afd",
-        "platform": "Codeforces",
-        "title": "Pinely Round 5 (Div. 1 + Div. 2)",
-        "url": "https://codeforces.com/contests/2161",
-        "start_time": "2025-10-30T22:05:00+05:30",
-        "duration": 10800
-    },
-    {
-        "id": "56ed2045eaf945b090af725d020234f9",
+        "id": "e1c9778e7b7343d89165cdd3f03ca657",
         "platform": "LeetCode",
         "title": "Weekly Contest 475",
         "url": "https://leetcode.com/contest/weekly-contest-475",
@@ -40,7 +32,7 @@
         "duration": 5400
     },
     {
-        "id": "4fe009516e944661b6f04094a6e202f6",
+        "id": "71ef8098f74f4fa8a46276a525bc014c",
         "platform": "LeetCode",
         "title": "Biweekly Contest 169",
         "url": "https://leetcode.com/contest/biweekly-contest-169",
@@ -48,7 +40,7 @@
         "duration": 5400
     },
     {
-        "id": "b1b879dff127480bac8e35ea5671f99e",
+        "id": "96b91325423a4e02984aeeae6ef037c1",
         "platform": "LeetCode",
         "title": "Weekly Contest 474",
         "url": "https://leetcode.com/contest/weekly-contest-474",
@@ -56,7 +48,7 @@
         "duration": 5400
     },
     {
-        "id": "7d5b22198eaa412c82a2f0395ca99d7d",
+        "id": "d8f4cadadbdd4783a7006b27fd4130d8",
         "platform": "AtCoder",
         "title": "AtCoder Beginner Contest 430",
         "url": "https://atcoder.jp/contests/abc430",
@@ -64,7 +56,7 @@
         "duration": 6000
     },
     {
-        "id": "86ee346569304b3baece3bfd32bfb477",
+        "id": "7e07389531814692bce88f1331709f27",
         "platform": "AtCoder",
         "title": "FPS 24: 24 Problems on Formal Power Series",
         "url": "https://atcoder.jp/contests/fps-24",
@@ -72,7 +64,7 @@
         "duration": 18000
     },
     {
-        "id": "14875b259f3e42038c8c1538acbe4915",
+        "id": "fa6ab916ed2847ea9416c42d312da3fd",
         "platform": "AtCoder",
         "title": "HACK TO THE FUTURE 2026 \uff08AtCoder Heuristic Contest 056\uff09",
         "url": "https://atcoder.jp/contests/ahc056",
@@ -80,7 +72,7 @@
         "duration": 864000
     },
     {
-        "id": "0f00f430031545b9a41b28882e0795bf",
+        "id": "8028fb3ae63744949e892911a7867cc6",
         "platform": "AtCoder",
         "title": "TOYOTA SYSTEMS Programming Contest 2025\uff08AtCoder Beginner Contest 431)",
         "url": "https://atcoder.jp/contests/abc431",
@@ -88,7 +80,7 @@
         "duration": 6000
     },
     {
-        "id": "ef45872f9bd54bb9966631a952af6aa8",
+        "id": "47a724a3febf46a1a24942dd4bae28b4",
         "platform": "AtCoder",
         "title": "AtCoder Regular Contest 209 (Div. 1)",
         "url": "https://atcoder.jp/contests/arc209",
@@ -96,7 +88,7 @@
         "duration": 9000
     },
     {
-        "id": "e58d9fbf4fa5463f8c17767ed6874092",
+        "id": "2283096c1c054aba824895d9c4005cbc",
         "platform": "AtCoder",
         "title": "OMRON Corporation Programming Contest 2025 #2 (AtCoder Beginner Contest 432)",
         "url": "https://atcoder.jp/contests/abc432",
@@ -104,7 +96,7 @@
         "duration": 6000
     },
     {
-        "id": "350e8888d1014a95a68bf88ffa2a0256",
+        "id": "251b2aee03954423883c27eb257f74dd",
         "platform": "AtCoder",
         "title": "AtCoder Regular Contest 210",
         "url": "https://atcoder.jp/contests/arc210",
@@ -112,7 +104,7 @@
         "duration": 7200
     },
     {
-        "id": "3f3ddc0cd133460ea85709e072d49e92",
+        "id": "2d72dd51c10d430bbff36eada23dabbe",
         "platform": "AtCoder",
         "title": "AtCoder Beginner Contest 433",
         "url": "https://atcoder.jp/contests/abc433",
