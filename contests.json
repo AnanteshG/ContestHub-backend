@@ -1,6 +1,6 @@
 [
     {
-        "id": "b2b63e83ee8944a7af8d7d87e9c64e06",
+        "id": "54f2e3f782a546f98f30a1b070547715",
         "platform": "Codeforces",
         "title": "Kotlin Heroes: Episode 14",
         "url": "https://codeforces.com/contests/2199",
@@ -8,7 +8,7 @@
         "duration": 9000
     },
     {
-        "id": "45e4cd1f91794d0d9d84208cf16d32d5",
+        "id": "1e9d4d36bc7a4a009db5e117490ec1c6",
         "platform": "Codeforces",
         "title": "Kotlin Heroes: Practice 14",
         "url": "https://codeforces.com/contests/2198",
@@ -16,7 +16,7 @@
         "duration": 777600
     },
     {
-        "id": "2d2444db9f6b49afa933095c7acee1ee",
+        "id": "f74029e9aa3e43cfb6f1584d4d97a9e6",
         "platform": "Codeforces",
         "title": "Codeforces Round (Div. 3)",
         "url": "https://codeforces.com/contests/2195",
@@ -24,7 +24,7 @@
         "duration": 8100
     },
     {
-        "id": "af252a6d782143adbdd01204e053c738",
+        "id": "5b009e0d3a034e9eb3adbffa2e6b6b62",
         "platform": "Codeforces",
         "title": "Codeforces Round (Div. 1)",
         "url": "https://codeforces.com/contests/2196",
@@ -32,7 +32,7 @@
         "duration": 7200
     },
     {
-        "id": "0e8c1d555c1e4156a21f14c9407b45dd",
+        "id": "119d3002f5884ba4a31b10483948395d",
         "platform": "Codeforces",
         "title": "Codeforces Round (Div. 2)",
         "url": "https://codeforces.com/contests/2197",
@@ -40,7 +40,7 @@
         "duration": 7200
     },
     {
-        "id": "9e11819c709446bab1c2f012ad22806f",
+        "id": "05836a76ebb74e73ad5c39d484c20c69",
         "platform": "Codeforces",
         "title": "Codeforces Round (Div. 2)",
         "url": "https://codeforces.com/contests/2194",
@@ -48,15 +48,7 @@
         "duration": 7200
     },
     {
-        "id": "b350379b18de4fc8a8beb9baf1c1c9b7",
-        "platform": "Codeforces",
-        "title": "Codeforces Round (Div. 2)",
-        "url": "https://codeforces.com/contests/2192",
-        "start_time": "2026-02-07T20:05:00+05:30",
-        "duration": 7200
-    },
-    {
-        "id": "98b4ae75c02b44f48038d7728b533b58",
+        "id": "69e094e442f04ea4aa79159baf8b6035",
         "platform": "LeetCode",
         "title": "Biweekly Contest 176",
         "url": "https://leetcode.com/contest/biweekly-contest-176",
@@ -64,7 +56,7 @@
         "duration": 5400
     },
     {
-        "id": "075a5a7a63aa4efc9655babeedbe352c",
+        "id": "ffbaae0913084348a1cf110350bf5fd1",
         "platform": "LeetCode",
         "title": "Weekly Contest 488",
         "url": "https://leetcode.com/contest/weekly-contest-488",
@@ -72,15 +64,7 @@
         "duration": 5400
     },
     {
-        "id": "0b38fb80693b4f7994f263223a84b3fe",
-        "platform": "HackerEarth",
-        "title": "StudyIn Hackathon 2026",
-        "url": "https://www.hackerearth.com/challenges/competitive/studyin-2025/",
-        "start_time": "2026-03-14T10:00:00",
-        "duration": 116940
-    },
-    {
-        "id": "a2e19484395245f7bfc98c744db1ee27",
+        "id": "03798800e8d04b5d90f7e082596b9977",
         "platform": "AtCoder",
         "title": "AtCoder Beginner Contest 444",
         "url": "https://atcoder.jp/contests/abc444",
@@ -88,7 +72,7 @@
         "duration": 6000
     },
     {
-        "id": "d4ea3e7480d14e4888f48e85b5367048",
+        "id": "28b5460c91774d7cba404d905a9cdcf3",
         "platform": "AtCoder",
         "title": "AtCoder Regular Contest 214",
         "url": "https://atcoder.jp/contests/arc214",
@@ -96,7 +80,7 @@
         "duration": 7200
     },
     {
-        "id": "06efc84aa22549c783bd2ae159f1920d",
+        "id": "6d4d02a755114b7f86c9731d46694efc",
         "platform": "AtCoder",
         "title": "THIRD Programming Contest 2026\uff08AtCoder Heuristic Contest 061\uff09",
         "url": "https://atcoder.jp/contests/ahc061",
@@ -104,7 +88,7 @@
         "duration": 864000
     },
     {
-        "id": "8d3892b994ba41bea80dc80e83ac4bba",
+        "id": "c17b1347b19a406aac1e833054a977e5",
         "platform": "AtCoder",
         "title": "AtCoder Beginner Contest 445",
         "url": "https://atcoder.jp/contests/abc445",
@@ -112,7 +96,7 @@
         "duration": 6000
     },
     {
-        "id": "f5dca5fef74f45e5863fbe5c60119285",
+        "id": "bb4b6ffc988247d08b10fd3dde945f40",
         "platform": "AtCoder",
         "title": "AtCoder Beginner Contest 446",
         "url": "https://atcoder.jp/contests/abc446",
@@ -120,7 +104,15 @@
         "duration": 6000
     },
     {
-        "id": "3622a420119c491fbca46bbe77203e64",
+        "id": "4a03c3c74f2d4bc0abfaec07f5d85ab3",
+        "platform": "AtCoder",
+        "title": "AtCoder Beginner Contest 447",
+        "url": "https://atcoder.jp/contests/abc447",
+        "start_time": "2026-02-28T21:00:00+09:00",
+        "duration": 6000
+    },
+    {
+        "id": "e77e2fe675134236b4a575f4e8a132cb",
         "platform": "AtCoder",
         "title": "The 3rd Masters Championship-qual-",
         "url": "https://atcoder.jp/contests/masters2026-qual",
