@@ -1,14 +1,6 @@
 [
     {
-        "id": "461cd3d3f4f344799530c5744b5de3f0",
-        "platform": "Codeforces",
-        "title": "Codeforces Round 1117 (Div. 2)",
-        "url": "https://codeforces.com/contests/2257",
-        "start_time": "2026-08-17T20:05:00+05:30",
-        "duration": 7200
-    },
-    {
-        "id": "6db4eb17d4764563ac8b90381fc79f22",
+        "id": "a5c4502280a44235a7b2879247b86b5e",
         "platform": "Codeforces",
         "title": "ICPC 2026 Online Challenge 1 powered by Huawei",
         "url": "https://codeforces.com/contests/2251",
@@ -16,7 +8,7 @@
         "duration": 1209600
     },
     {
-        "id": "c3fc78a2b2b24f73a267bb07cde9b8a8",
+        "id": "22f3c1047d874360b209e3691bedcbc0",
         "platform": "LeetCode",
         "title": "Biweekly Contest 190",
         "url": "https://leetcode.com/contest/biweekly-contest-190",
@@ -24,7 +16,7 @@
         "duration": 5400
     },
     {
-        "id": "5bccbfe45d25431eaf5b7209a64a192e",
+        "id": "34ac248e5a334e56afb6bc8716c132dd",
         "platform": "LeetCode",
         "title": "Weekly Contest 516",
         "url": "https://leetcode.com/contest/weekly-contest-516",
@@ -32,7 +24,7 @@
         "duration": 5400
     },
     {
-        "id": "aadf88387af449bfaa0378ba6ece0724",
+        "id": "53283f768ec741beb4f768e8e864f7a6",
         "platform": "AtCoder",
         "title": "AtCoder Beginner Contest 472",
         "url": "https://atcoder.jp/contests/abc472",
@@ -40,7 +32,7 @@
         "duration": 6000
     },
     {
-        "id": "033dbc5adaa44c849ba415309cc27baa",
+        "id": "a550b3a61569423fb1c57a4b5bd9f245",
         "platform": "AtCoder",
         "title": "13th Asprova Programming Contest\uff08AtCoder Heuristic Contest 070\uff09",
         "url": "https://atcoder.jp/contests/ahc070",
@@ -48,7 +40,7 @@
         "duration": 14400
     },
     {
-        "id": "0288dd52eb124f8f9f1d831b5dfe2f77",
+        "id": "b4b233a656a84edfaaa47ffca9d416c9",
         "platform": "AtCoder",
         "title": "AtCoder Beginner Contest 473",
         "url": "https://atcoder.jp/contests/abc473",
@@ -56,7 +48,7 @@
         "duration": 6000
     },
     {
-        "id": "3ddbbba4b3b440169a7fa1624ea0fc3d",
+        "id": "0ef34d75a3e343eb9f4a6d661809f5e2",
         "platform": "AtCoder",
         "title": "AtCoder Beginner Contest 474",
         "url": "https://atcoder.jp/contests/abc474",
