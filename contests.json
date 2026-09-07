@@ -1,6 +1,6 @@
 [
     {
-        "id": "047f7c7cbbc9458eabe0cd746eded7ea",
+        "id": "ca2cc1f2a81c447f99e8fa93c69b5596",
         "platform": "Codeforces",
         "title": "Codeforces Round (Div. 1 + Div. 2)",
         "url": "https://codeforces.com/contests/2261",
@@ -8,7 +8,7 @@
         "duration": 10800
     },
     {
-        "id": "3600d34929b54916b95da538bb97b160",
+        "id": "72e717be902342febdc0afa2950e9b2e",
         "platform": "Codeforces",
         "title": "Codeforces Round (Div. 2)",
         "url": "https://codeforces.com/contests/2264",
@@ -16,7 +16,7 @@
         "duration": 7200
     },
     {
-        "id": "b7f7ffdc7f0943b59068a1c52cc25591",
+        "id": "2921f851e8af400bb4700a1c421a3ace",
         "platform": "Codeforces",
         "title": "Codeforces Round (Div. 1)",
         "url": "https://codeforces.com/contests/2262",
@@ -24,7 +24,7 @@
         "duration": 10800
     },
     {
-        "id": "698fa9518eed4f1db9dd95b615a764be",
+        "id": "bec29808b15e40e58035fb2233f9e715",
         "platform": "Codeforces",
         "title": "Codeforces Round (Div. 2)",
         "url": "https://codeforces.com/contests/2263",
@@ -32,7 +32,7 @@
         "duration": 10800
     },
     {
-        "id": "d7c9167457f24be799e7b52943d40eb3",
+        "id": "4e2639c5545447c78a0b7d776f0d590a",
         "platform": "Codeforces",
         "title": "Educational Codeforces Round 194 (Rated for Div. 2)",
         "url": "https://codeforces.com/contests/2260",
@@ -40,7 +40,15 @@
         "duration": 7200
     },
     {
-        "id": "bbedc287290f46c1aba5dda3c8ddc973",
+        "id": "d8d8cb86627d44a282d3a65ffadbf35f",
+        "platform": "LeetCode",
+        "title": "Weekly Contest 520",
+        "url": "https://leetcode.com/contest/weekly-contest-520",
+        "start_time": "2026-09-20T08:00:00+05:30",
+        "duration": 5400
+    },
+    {
+        "id": "6890e83d842b406da3dc3796e5eeb1fb",
         "platform": "LeetCode",
         "title": "Weekly Contest 519",
         "url": "https://leetcode.com/contest/weekly-contest-519",
@@ -48,7 +56,7 @@
         "duration": 5400
     },
     {
-        "id": "b49b512d995c464e999feb19111212da",
+        "id": "53f3b6fe418c49f38659372160e465fb",
         "platform": "LeetCode",
         "title": "Biweekly Contest 191",
         "url": "https://leetcode.com/contest/biweekly-contest-191",
@@ -56,7 +64,7 @@
         "duration": 5400
     },
     {
-        "id": "02ae417259cb4e2ab51c63b6ae4c7fcd",
+        "id": "b8827f96ba7b484a88094ef857e38a74",
         "platform": "AtCoder",
         "title": "AtCoder Beginner Contest 475",
         "url": "https://atcoder.jp/contests/abc475",
@@ -64,7 +72,7 @@
         "duration": 6000
     },
     {
-        "id": "99d7a584e797438fb04828c60554d12a",
+        "id": "a665601662c34160b0dc9400331e4d36",
         "platform": "AtCoder",
         "title": "AtCoder Heuristic Contest 071",
         "url": "https://atcoder.jp/contests/ahc071",
@@ -72,7 +80,7 @@
         "duration": 14400
     },
     {
-        "id": "21090f53a9b847429c821392a7e1f0df",
+        "id": "bdca853299b74e5e87f9cf9686dd521a",
         "platform": "AtCoder",
         "title": "JIJ Programming Contest 2026\uff08AtCoder Beginner Contest 476\uff09",
         "url": "https://atcoder.jp/contests/abc476",
@@ -80,7 +88,7 @@
         "duration": 6000
     },
     {
-        "id": "e8f2ae0ad1354c6fb44fbd6ba6aba0c4",
+        "id": "80dd862fe82b4099b10ab2ab376b299a",
         "platform": "AtCoder",
         "title": "AtCoder Regular Contest++ 230",
         "url": "https://atcoder.jp/contests/arc230",
@@ -88,7 +96,7 @@
         "duration": 9000
     },
     {
-        "id": "832cdaf3bc8d452bbadef21264887057",
+        "id": "07c9f0e3c95945a49e823e37346bd549",
         "platform": "AtCoder",
         "title": "ALGO ARTIS Programming Contest 2026 September\uff08AtCoder Heuristic Contest 072\uff09",
         "url": "https://atcoder.jp/contests/ahc072",
@@ -96,7 +104,7 @@
         "duration": 864000
     },
     {
-        "id": "aa98583eb62b41dd846ed01824958016",
+        "id": "c56ff46741b744509d5fea69aacb4301",
         "platform": "AtCoder",
         "title": "UNICORNProgramming Contest2026(AtCoder Beginner Contest 477)",
         "url": "https://atcoder.jp/contests/abc477",
@@ -104,7 +112,7 @@
         "duration": 6000
     },
     {
-        "id": "21cd0cd3550d4e7ab53832423f73f270",
+        "id": "b749c2ac196548599c5357f9badee9ff",
         "platform": "AtCoder",
         "title": "AtCoder Grand Contest 078",
         "url": "https://atcoder.jp/contests/agc078",
@@ -112,7 +120,7 @@
         "duration": 12600
     },
     {
-        "id": "84ed881e359f4736baeca6b8cad9e2eb",
+        "id": "881969d21cfa49ed9c8626e3f191a9cd",
         "platform": "AtCoder",
         "title": "AAL Contest 001: Let's use segtree!",
         "url": "https://atcoder.jp/contests/aalc001",
